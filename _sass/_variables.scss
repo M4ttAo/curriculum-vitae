@@ -1,0 +1,109 @@
+:root {
+
+  --flexoki-black: #100f0f;
+
+  --flexoki-950: #1c1b1a;
+  --flexoki-900: #282726;
+  --flexoki-850: #343331;
+  --flexoki-800: #403e3c;
+
+  --flexoki-700: #575653;
+  --flexoki-600: #6f6e69;
+  --flexoki-500: #878580;
+
+  --flexoki-300: #b7b5ac;
+  --flexoki-200: #cecdc3;
+  --flexoki-150: #dad8ce;
+  --flexoki-100: #e6e4d9;
+  --flexoki-50: #f2f0e5;
+
+  --flexoki-paper: #fffcf0;
+
+
+  --blue-100: #c6dde8;
+  --blue-300: #66a0c8;
+  --blue-400: #4385be;
+  --blue-500: #3171b2;
+  --blue-600: #205ea6;
+  --blue-900: #12253b;
+
+
+  --font-serif:
+    "Source Serif 4",
+    "Iowan Old Style",
+    Georgia,
+    serif;
+
+  --font-mono:
+    "IBM Plex Mono",
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    monospace;
+
+
+  --radius: 3px;
+
+  --measure: 42rem;
+
+
+  --space-1: 0.5rem;
+
+  --space-2: 1rem;
+
+  --space-3: 2rem;
+
+  --space-4: 4rem;
+
+}
+
+
+/* LIGHT */
+
+:root,
+[data-theme="light"] {
+
+  --bg: var(--flexoki-paper);
+
+  --bg-soft: var(--flexoki-50);
+
+  --border: var(--flexoki-100);
+
+  --text: var(--flexoki-black);
+
+  --text-muted: var(--blue-600);
+
+  --text-faint: var(--blue-500);
+
+  --tag-bg: var(--blue-100);
+
+  --tag-text: var(--flexoki-700);
+
+  --accent: var(--blue-600);
+
+}
+
+
+/* DARK */
+
+[data-theme="dark"] {
+
+  --bg: var(--flexoki-black);
+
+  --bg-soft: var(--flexoki-950);
+
+  --border: var(--flexoki-900);
+
+  --text: var(--flexoki-100);
+
+  --text-muted: var(--blue-300);
+
+  --text-faint: var(--blue-500);
+
+  --tag-bg: var(--blue-900);
+
+  --tag-text: var(--flexoki-200);
+
+  --accent: var(--blue-400);
+
+}

@@ -1,0 +1,48 @@
+{% if site.data.experience.size > 0 %}
+
+<h2>
+  Professional Experience
+</h2>
+
+{% for job in site.data.experience %}
+
+  <div class="entry experience-entry">
+
+    <h3 class="entry-company">
+      {{ job.company }}
+    </h3>
+
+    {% if job.location %}
+      <p class="entry-sub">
+        {{ job.location }}
+      </p>
+    {% endif %}
+
+
+    {% for role in job.roles %}
+
+      <div class="role">
+
+        <div class="entry-head">
+
+          <strong>
+            {{ role.title }}
+          </strong>
+
+          <time class="meta">
+            {{ role.period }}
+          </time>
+
+        </div>
+
+        {{ role.description | markdownify }}
+
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+{% endfor %}
+
+{% endif %}

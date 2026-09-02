@@ -1,0 +1,37 @@
+{% if site.data.certifications.size > 0 %}
+
+<h2>
+  Certifications and Studies
+</h2>
+
+{% for cert in site.data.certifications %}
+
+  <div class="entry">
+
+    <h3>
+      {{ cert.vendor }}
+    </h3>
+
+    {% if cert.focus %}
+      <p class="entry-sub">
+        {{ cert.focus }}
+      </p>
+    {% endif %}
+
+    <ul>
+
+      {% for item in cert.items %}
+
+        <li>
+          {{ item }}
+        </li>
+
+      {% endfor %}
+
+    </ul>
+
+  </div>
+
+{% endfor %}
+
+{% endif %}

@@ -1,0 +1,34 @@
+{% assign p = site.data.profile %}
+
+{% if p.email != "" or p.location != "" or p.linkedin != "" or p.github != "" %}
+
+<p class="contact-line">
+
+  {% if p.email != "" %}
+    <a href="mailto:{{ p.email }}">
+      {{ p.email }}
+    </a>
+  {% endif %}
+
+  {% if p.location != "" %}
+    {% if p.email != "" %} · {% endif %}
+    {{ p.location }}
+  {% endif %}
+
+  {% if p.linkedin != "" %}
+    ·
+    <a href="{{ p.linkedin }}">
+      linkedin
+    </a>
+  {% endif %}
+
+  {% if p.github != "" %}
+    ·
+    <a href="{{ p.github }}">
+      github
+    </a>
+  {% endif %}
+
+</p>
+
+{% endif %}

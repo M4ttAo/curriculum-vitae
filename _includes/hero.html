@@ -1,0 +1,29 @@
+<div class="hero">
+
+  <h1 class="mb-0">
+    {{ site.data.profile.name }}
+  </h1>
+
+  {% if site.data.profile.title != "" %}
+
+    <p class="tagline">
+      {{ site.data.profile.title }}
+    </p>
+
+  {% endif %}
+
+
+  {% if site.data.profile.bio != "" %}
+
+    <p>
+      {{ site.data.profile.bio }}
+    </p>
+
+  {% endif %}
+
+
+  {% include skills.html %}
+
+  {% include contact.html %}
+
+</div>

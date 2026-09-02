@@ -1,0 +1,56 @@
+{% if site.data.projects.size > 0 %}
+
+<h2>
+  Projects
+</h2>
+
+{% for project in site.data.projects %}
+
+  <div class="entry">
+
+    <div class="entry-head">
+
+      <h3>
+        {{ project.title }}
+      </h3>
+
+      {% if project.year %}
+        <time class="meta">
+          {{ project.year }}
+        </time>
+      {% endif %}
+
+    </div>
+
+
+    {% if project.subtitle %}
+      <p class="entry-sub">
+        {{ project.subtitle }}
+      </p>
+    {% endif %}
+
+
+    {{ project.description | markdownify }}
+
+
+    {% if project.tags %}
+
+      <p class="tag-list">
+
+        {% for tag in project.tags %}
+
+          <span class="tag">
+            {{ tag }}
+          </span>
+
+        {% endfor %}
+
+      </p>
+
+    {% endif %}
+
+  </div>
+
+{% endfor %}
+
+{% endif %}
