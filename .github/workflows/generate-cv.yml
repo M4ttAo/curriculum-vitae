@@ -1,0 +1,70 @@
+name: Generate CV and prepare deployment
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-cv-deploy
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Generate PDF
+        run: npm run generate:pdf
+
+      - name: Verify generated PDF
+        run: |
+          test -f ./_site/assets/cv.pdf
+          ls -lh ./_site/assets/cv.pdf
+
+      - name: Save generated PDF temporarily
+        run: |
+          cp ./_site/assets/cv.pdf /tmp/Matteo-Cavalli-CV.pdf
+
+      - name: Prepare deploy branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git switch -C deploy "$GITHUB_SHA"
+
+          mkdir -p ./assets
+          cp /tmp/Matteo-Cavalli-CV.pdf ./assets/cv.pdf
+
+          git add -f ./assets/cv.pdf
+          git commit -m "Generate CV PDF for ${GITHUB_SHA}"
+
+      - name: Push deploy branch
+        run: |
+          git push origin deploy --force
