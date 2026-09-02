@@ -1,7 +1,7 @@
 body {
 
   font-family:
-    var(--font-serif);
+    var(--font-body);
 
   font-size: 18px;
 
@@ -16,7 +16,7 @@ h3,
 h4 {
 
   font-family:
-    var(--font-serif);
+    var(--font-heading);
 
   font-weight: 600;
 
@@ -29,7 +29,11 @@ h4 {
 
 h1 {
 
-  font-size: 1.9rem;
+  font-size: 2rem;
+
+  font-weight: 700;
+
+  letter-spacing: -0.03em;
 
   margin:
     0
@@ -41,11 +45,16 @@ h1 {
 
 h2 {
 
-  font-size: 1rem;
+  font-family:
+    var(--font-mono);
+
+  font-size: 0.85rem;
+
+  font-weight: 500;
 
   text-transform: uppercase;
 
-  letter-spacing: 0.07em;
+  letter-spacing: 0.08em;
 
   color: var(--text-muted);
 
@@ -59,14 +68,16 @@ h2 {
   margin:
     var(--space-3)
     0
-    var(--space-1);
+    var(--space-2);
 
 }
 
 
 h3 {
 
-  font-size: 1.15rem;
+  font-size: 1.1rem;
+
+  font-weight: 600;
 
   margin:
     var(--space-2)
@@ -101,7 +112,7 @@ ul {
 li {
 
   margin-bottom:
-    0.3rem;
+    0.35rem;
 
 }
 
@@ -114,7 +125,7 @@ time,
     var(--font-mono);
 
   font-size:
-    0.8rem;
+    0.78rem;
 
   color:
     var(--text-faint);
