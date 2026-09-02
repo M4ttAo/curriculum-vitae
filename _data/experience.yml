@@ -1,4 +1,3 @@
-```yaml
 - company: "NTT (ex Dimension Data)"
   location: "Milan"
   roles:
@@ -35,5 +34,4 @@
 
         - Used monitoring platforms including SolarWinds Orion and WhatsUp Gold and tracked activities through ITSM and customer ticketing systems such as Altiris.
 
-        - Handled incident resolution according to Service Level Agreements in a 24/7 shift-based environment.
-```
+        - Handled incident resolution according to Service Level Agreements in a 24/7 shift-based environment.s
