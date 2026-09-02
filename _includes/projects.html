@@ -1,54 +1,23 @@
 {% if site.data.projects.size > 0 %}
+<h2>Projects</h2>
 
-<h2>
-  Projects
-</h2>
-
-{% for project in site.data.projects %}
-
+{% for p in site.data.projects %}
   <div class="entry">
-
     <div class="entry-head">
+      <h3>{{ p.title }}</h3>
 
-      <h3>
-        {{ project.title }}
-      </h3>
-
-      {% if project.year %}
-        <time class="meta">
-          {{ project.year }}
-        </time>
+      {% if p.period %}
+      <time class="meta">{{ p.period }}</time>
       {% endif %}
-
     </div>
 
+    {{ p.description | markdownify }}
 
-    {% if project.subtitle %}
-      <p class="entry-sub">
-        {{ project.subtitle }}
-      </p>
+    {% if p.tags %}
+    <p class="tag-list">
+      {% for t in p.tags %}{% include tag-badge.html tag=t %}{% endfor %}
+    </p>
     {% endif %}
-
-
-    {{ project.description | markdownify }}
-
-
-    {% if project.tags %}
-
-      <p class="tag-list">
-
-        {% for tag in project.tags %}
-
-        {% include tag-badge.html tag=tag %}
-
-        {% endfor %}
-
-      </p>
-
-    {% endif %}
-
   </div>
-
 {% endfor %}
-
 {% endif %}

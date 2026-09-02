@@ -1,29 +1,5 @@
-{% if site.data.skills.size > 0 %}
-
-<div class="skills">
-
+<p class="tag-list">
   {% for group in site.data.skills %}
-
-    <div class="skill-group">
-
-      <span class="skill-group-name">
-        {{ group.group }}
-      </span>
-
-      <div class="tag-list">
-
-        {% for item in group.items %}
-
-          {% include tag-badge.html tag=item %}
-
-        {% endfor %}
-
-      </div>
-
-    </div>
-
+    {% for item in group.items %}{% include tag-badge.html tag=item %}{% endfor %}
   {% endfor %}
-
-</div>
-
-{% endif %}
+</p>
