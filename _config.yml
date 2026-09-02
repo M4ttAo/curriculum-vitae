@@ -28,3 +28,6 @@ exclude:
 
 include:
   - _headers
+
+tag_dir: /blog/tag
+permalink: /blog/:title/

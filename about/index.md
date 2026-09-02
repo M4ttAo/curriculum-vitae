@@ -4,22 +4,35 @@ title: "About"
 permalink: /about/
 ---
 
-## About me
+## The project
 
-This page will contain information about me, my interests and the technical areas I work on.
+This website is my personal CV and a place where I can keep track of my professional experience, projects and technical interests.
 
-## This website
+The homepage contains the curriculum, while the blog is intended for technical notes, experiments and content related to the technologies I work with.
 
-`mattao.net` is my personal website.
+Most of the content is stored in YAML and Markdown files, separated from the presentation layer. This makes it possible to update the CV, projects or blog without changing the underlying HTML structure.
 
-The homepage acts as my online curriculum vitae, while this section contains additional information that does not belong directly in a CV.
+### Inspiration
 
-The website is intentionally built as a static site, keeping content separated from presentation.
+The project was strongly inspired by the personal website and open-source CV repository created by **[Umberto Calò](https://umbertocalo.dpdns.org/)**.
 
-## Tech stack
+His project provided the starting point for the structure and overall approach of this website:
 
-- **Jekyll 4.3**
-- **SCSS**
-- **Git**
-- **GitHub**
-- **Cloudflare**
+- [umbertocalo.dpdns.org](https://umbertocalo.dpdns.org/)
+- [github.com/umbertocalo/curriculum-vitae](https://github.com/umbertocalo/curriculum-vitae)
+
+The content, visual style, colors, typography and deployment workflow have been adapted for my own website.
+
+### Tech stack
+
+- **Jekyll** — static site generator
+- **SCSS** — styling
+- **GitHub Actions** — automation and PDF generation
+- **Puppeteer** — CV PDF generation
+- **Cloudflare Workers** — hosting and deployment
+
+## Interests
+
+My main technical interests are focused on Collaboration, Voice and infrastructure automation.
+
+I also work on personal projects involving Python, APIs, containers, network automation and on-premises AI environments.

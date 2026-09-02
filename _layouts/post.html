@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<article class="post h-entry">
+
+  <header class="post-header">
+
+    <h1 class="p-name">{{ page.title }}</h1>
+
+    <p class="meta">
+
+      <time class="dt-published"
+            datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%-d %B %Y" }}
+      </time>
+
+      {% if page.tags %}
+        <span class="tag-list">
+          {% for tag in page.tags %}
+            {% include tag-badge.html tag=tag %}
+          {% endfor %}
+        </span>
+      {% endif %}
+
+    </p>
+
+  </header>
+
+  <div class="e-content">
+    {{ content }}
+  </div>
+
+  <nav class="post-nav">
+    <a href="{{ '/blog/' | relative_url }}">← back to blog</a>
+  </nav>
+
+</article>

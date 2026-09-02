@@ -1,11 +1,12 @@
 <header class="site-header">
   <nav>
     <a href="{{ '/' | relative_url }}">{{ site.data.profile.name }}</a>
+    <a href="{{ '/blog/' | relative_url }}">blog</a>
     <a href="{{ '/about/' | relative_url }}">about</a>
   </nav>
 
   <div class="header-actions">
-    {% unless page.url contains '/about' %}
+    {% unless page.url contains '/blog' or page.url contains '/about' %}
     <a href="{{ '/assets/cv.pdf' | relative_url }}"
        class="download-btn"
        id="download-cv"

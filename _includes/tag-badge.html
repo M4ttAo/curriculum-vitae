@@ -1,2 +1,5 @@
 {%- assign color = site.data.tags[include.tag] | default: 'default' -%}
-<span class="tag tag--{{ color }}">{{ include.tag }}</span>
+<a class="tag tag--{{ color }}"
+   href="{{ include.tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">
+  {{ include.tag }}
+</a>

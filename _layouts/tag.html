@@ -1,0 +1,141 @@
+---
+layout: default
+---
+
+<header class="post-header">
+  <h1>{{ page.title }}</h1>
+
+  <p class="tag-list">
+    {% include tag-badge.html tag=page.tag %}
+  </p>
+</header>
+
+
+{% if site.tags[page.tag] %}
+
+<h2>Posts</h2>
+
+<ul class="post-list">
+
+  {% for post in site.tags[page.tag] %}
+
+  <li>
+
+    <a href="{{ post.url | relative_url }}">
+      {{ post.title }}
+    </a>
+
+    <span class="meta">
+      {{ post.date | date: "%-d %B %Y" }}
+    </span>
+
+    {% if post.tags %}
+      <span class="tag-list">
+
+        {% for tag in post.tags %}
+          {% include tag-badge.html tag=tag %}
+        {% endfor %}
+
+      </span>
+    {% endif %}
+
+  </li>
+
+  {% endfor %}
+
+</ul>
+
+{% endif %}
+
+
+{% assign has_projects = false %}
+
+{% for project in site.data.projects %}
+  {% if project.tags contains page.tag %}
+    {% assign has_projects = true %}
+  {% endif %}
+{% endfor %}
+
+
+{% if has_projects %}
+
+<h2>Projects</h2>
+
+{% for project in site.data.projects %}
+
+  {% if project.tags contains page.tag %}
+
+    <div class="entry">
+
+      <div class="entry-head">
+
+        <h3>{{ project.title }}</h3>
+
+        {% if project.period %}
+          <time class="meta">
+            {{ project.period }}
+          </time>
+        {% endif %}
+
+      </div>
+
+      {{ project.description | markdownify }}
+
+      {% if project.tags %}
+        <p class="tag-list">
+
+          {% for tag in project.tags %}
+            {% include tag-badge.html tag=tag %}
+          {% endfor %}
+
+        </p>
+      {% endif %}
+
+    </div>
+
+  {% endif %}
+
+{% endfor %}
+
+{% endif %}
+
+
+{% assign has_skills = false %}
+
+{% for group in site.data.skills %}
+  {% if group.items contains page.tag %}
+    {% assign has_skills = true %}
+  {% endif %}
+{% endfor %}
+
+
+{% if has_skills %}
+
+<h2>Skills</h2>
+
+<ul>
+
+{% for group in site.data.skills %}
+
+  {% if group.items contains page.tag %}
+
+    <li>
+      {{ page.tag }} — part of the
+      <strong>{{ group.group }}</strong>
+      group
+    </li>
+
+  {% endif %}
+
+{% endfor %}
+
+</ul>
+
+{% endif %}
+
+
+<p class="post-nav">
+  <a href="{{ '/blog/' | relative_url }}">
+    ← back to blog
+  </a>
+</p>
