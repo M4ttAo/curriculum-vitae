@@ -4,7 +4,7 @@ title: "About"
 permalink: /about/
 ---
 
-### Inspiration
+## Inspiration
 
 The project was strongly inspired by the personal website and open-source CV repository created by **[Umberto Calò](https://umbertocalo.dpdns.org/)**.
 
