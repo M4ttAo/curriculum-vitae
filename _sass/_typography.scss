@@ -3,7 +3,7 @@ body {
   font-family:
     var(--font-body);
 
-  font-size: 18px;
+  font-size: 17px;
 
   line-height: 1.65;
 
@@ -18,11 +18,9 @@ h4 {
   font-family:
     var(--font-heading);
 
-  font-weight: 600;
+  color: var(--text);
 
   line-height: 1.25;
-
-  color: var(--text);
 
 }
 
@@ -33,7 +31,7 @@ h1 {
 
   font-weight: 700;
 
-  letter-spacing: -0.03em;
+  letter-spacing: -0.035em;
 
   margin:
     0
@@ -48,7 +46,7 @@ h2 {
   font-family:
     var(--font-mono);
 
-  font-size: 0.85rem;
+  font-size: 0.82rem;
 
   font-weight: 500;
 
@@ -75,9 +73,11 @@ h2 {
 
 h3 {
 
-  font-size: 1.1rem;
+  font-size: 1.05rem;
 
   font-weight: 600;
+
+  letter-spacing: -0.01em;
 
   margin:
     var(--space-2)
@@ -125,7 +125,7 @@ time,
     var(--font-mono);
 
   font-size:
-    0.78rem;
+    0.76rem;
 
   color:
     var(--text-faint);
@@ -156,7 +156,7 @@ code {
 @media (max-width: 480px) {
 
   body {
-    font-size: 16.5px;
+    font-size: 16px;
   }
 
 }
