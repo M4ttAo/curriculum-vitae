@@ -1,25 +1,12 @@
 {
-  "name": "curriculum-vitae",
+  "name": "cv-site-pdf",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Generate assets/cv.pdf from the Jekyll /cv/ page during the build",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate:pdf": "node scripts/generate-pdf.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/M4ttAo/curriculum-vitae.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/M4ttAo/curriculum-vitae/issues"
-  },
-  "homepage": "https://github.com/M4ttAo/curriculum-vitae#readme",
-  "devDependencies": {
-    "@cloudflare/puppeteer": "^1.4.0",
-    "wrangler": "^4.128.0"
+  "dependencies": {
+    "puppeteer": "^23.0.0"
   }
 }

@@ -2,7 +2,6 @@
 layout: print
 permalink: /cv/
 ---
-
 {% include hero.html %}
 {% include experience.html %}
 {% include projects.html %}

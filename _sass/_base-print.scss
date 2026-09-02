@@ -1,140 +1,65 @@
 @page {
-
   size: A4;
-
   margin: 16mm;
-
 }
-
 
 .print-body {
-
-  font-size: 14px;
-
-  --bg: #ffffff;
-
-  background: #ffffff;
-
+  font-size: 15.5px;
+  --bg: #FFFFFF;
 }
-
 
 .print-wrap {
-
   max-width: 100%;
-
   padding: 0;
-
 }
-
-
-/* SECTION TITLES */
 
 .print-wrap h2 {
-
   margin-top: 1.5rem;
-
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 
   break-after: avoid;
-
   page-break-after: avoid;
-
 }
-
-
-/* ENTRIES */
 
 .print-wrap .entry {
-
   margin-bottom: 1.1rem;
-
 }
-
-
-/* PROJECTS / CERTIFICATIONS / EDUCATION */
-
-.entry {
-
-  break-inside: avoid;
-
-  page-break-inside: avoid;
-
-}
-
-
-/*
- * An experience company may contain multiple roles.
- * Allow the company to span pages, but keep each role together.
- */
-
-.experience-entry {
-
-  break-inside: auto;
-
-  page-break-inside: auto;
-
-}
-
-
-/* Keep company name with the first role */
-
-.entry-company {
-
-  break-after: avoid;
-
-  page-break-after: avoid;
-
-}
-
-
-/* Keep individual roles together */
-
-.role {
-
-  break-inside: avoid;
-
-  page-break-inside: avoid;
-
-}
-
-
-/* HERO */
 
 .print-wrap .hero p.tagline {
-
   margin-top: -0.2rem;
-
 }
 
-
-/* LINKS */
-
-.print-wrap a {
-
-  text-decoration: none;
-
+.entry {
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 
+.experience-entry {
+  break-inside: auto;
+  page-break-inside: auto;
+}
 
-/* FOOTER */
+.entry-company {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.role {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
 
 .print-footer {
-
   margin-top: 2rem;
-
   padding-top: 0.6rem;
+  border-top: 1px solid var(--border);
 
-  border-top:
-    1px solid
-    var(--border);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
 
-  font-family:
-    var(--font-mono);
+  color: var(--text-faint);
+}
 
-  font-size:
-    0.65rem;
-
-  color:
-    var(--text-faint);
-
+.print-wrap a {
+  text-decoration: none;
 }
