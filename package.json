@@ -20,5 +20,8 @@
   "homepage": "https://github.com/M4ttAo/curriculum-vitae#readme",
   "devDependencies": {
     "wrangler": "^4.128.0"
+  },
+  "dependencies": {
+    "puppeteer": "^25.9.0"
   }
 }

@@ -13,6 +13,7 @@ kramdown:
   syntax_highlighter: rouge
 
 sass:
+  saas_dir: _sass
   style: compressed
 
 plugins:

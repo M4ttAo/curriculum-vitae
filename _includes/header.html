@@ -1,7 +1,6 @@
 <header class="site-header">
 
   <nav>
-
     <a
       class="site-name"
       href="{{ '/' | relative_url }}"
@@ -9,17 +8,22 @@
       {{ site.data.profile.name }}
     </a>
 
-    <a href="{{ '/' | relative_url }}">
-      cv
-    </a>
-
     <a href="{{ '/about/' | relative_url }}">
       about
     </a>
-
   </nav>
 
   <div class="header-actions">
+
+    {% unless page.url contains '/about' %}
+      <a
+        href="{{ '/assets/cv.pdf' | relative_url }}"
+        class="download-btn"
+        download="Matteo-Cavalli-CV.pdf"
+      >
+        ↓ pdf
+      </a>
+    {% endunless %}
 
     <button
       id="theme-toggle"

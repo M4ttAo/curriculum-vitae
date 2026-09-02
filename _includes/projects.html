@@ -39,9 +39,7 @@
 
         {% for tag in project.tags %}
 
-          <span class="tag">
-            {{ tag }}
-          </span>
+        {% include tag-badge.html tag=tag %}
 
         {% endfor %}
 

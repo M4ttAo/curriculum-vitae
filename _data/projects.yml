@@ -6,6 +6,18 @@
     - Worked on on-premises to cloud migrations and replacement of legacy infrastructures.
 
     - Developed Python scripts to automate processes and custom web pages to automate user tasks.
+  tags:
+    [
+      "Cisco CUCM",
+      "Webex Calling",
+      "Kubernetes",
+      "SIP",
+      "PSTN Integration",
+      "Python",
+      "Automation",
+      "REST API",
+      "Web Development",
+    ]
 
 - title: "Manufacturing - Network Automation"
   period: "4 months"
@@ -13,11 +25,33 @@
     - Developed automation scripts for automatic backup of network devices.
 
     - Developed a custom extension for IP Fabric to perform automated compliance checks on network and firewall device configurations.
+  tags:
+    [
+      "Enterprise Networking",
+      "LAN",
+      "WAN",
+      "Routing & Switching",
+      "Firewall",
+      "Python",
+      "Automation",
+      "REST API",
+      "NetDevOps",
+    ]
 
 - title: "Oil & Gas - Collaboration Infrastructure Upgrade"
   period: "7 months"
   description: >
     - Worked on a major upgrade of the entire Collaboration infrastructure for an Oil & Gas company, involving 4 Cisco Unified Communications Manager clusters and more than 40,000 devices worldwide.
+  tags:
+    [
+      "Cisco CUCM",
+      "Cisco Unity Connection",
+      "Cisco Expressway",
+      "Voice Gateways",
+      "SIP",
+      "SIP Trunking",
+      "PSTN Integration",
+    ]
 
 - title: "Oil & Gas - Oracle SBC"
   period: "1.5 years"
@@ -25,12 +59,34 @@
     - Redesigned the voice infrastructure for a company operating vessels and offshore facilities worldwide.
 
     - Designed the new solution, tested it in the lab and migrated the offshore facilities connecting to the main site through Oracle SBCs over satellite connections.
+  tags:
+    [
+      "Oracle SBC",
+      "SIP",
+      "SIP Trunking",
+      "Voice Gateways",
+      "Dial Plan Design",
+      "PSTN Integration",
+      "WAN",
+    ]
 
 - title: "Assurance - Oracle SBC"
   description: >
     - Replaced Cisco Voice Gateways with centralized Oracle SBCs, connecting users and the Contact Center to the PSTN through three different providers.
 
     - Integrated different IVRs and external voice services in America and connected services to Microsoft Teams through Direct Routing and to other external providers.
+  tags:
+    [
+      "Oracle SBC",
+      "SIP",
+      "SIP Trunking",
+      "Voice Gateways",
+      "Dial Plan Design",
+      "PSTN Integration",
+      "Contact Center",
+      "Call Routing",
+      "MS Teams Direct Routing",
+    ]
 
 - title: "Food Company - SD-WAN Implementation"
   period: "3 weeks onsite"
@@ -38,12 +94,29 @@
     - Replaced the existing iWAN routers with new SD-WAN devices across 4 sites and 1 data center in America.
 
     - Worked onsite in America for three weeks.
+  tags:
+    [
+      "Enterprise Networking",
+      "WAN",
+      "Routing & Switching",
+      "SD-WAN",
+      "Firewall",
+    ]
 
 - title: "UEFA Euro 2020"
   description: >
     - Took part in the team that built the network connectivity for the stadium and kept the infrastructure operational during the tournament.
 
     - The network supported users, photographers, accreditation devices, broadcasting companies, VAR and other services.
+  tags:
+    [
+      "Enterprise Networking",
+      "LAN",
+      "WAN",
+      "Routing & Switching",
+      "Wireless",
+      "Firewall",
+    ]
 
 - title: "Manufacturing Company - Webex Migration"
   period: "1.5 years"
@@ -53,11 +126,41 @@
     - Integrated three different on-premises CUCM clusters serving 5 sites with Webex, allowing users to call each other independently of where they were registered.
 
     - Supported the migration of the Contact Center from on-premises infrastructure to Genesys Cloud.
+  tags:
+    [
+      "Cisco CUCM",
+      "Cisco Expressway",
+      "Webex Calling",
+      "Webex Control Hub",
+      "SIP",
+      "PSTN Integration",
+      "Genesys Cloud CX",
+      "Contact Center",
+      "Call Routing",
+    ]
 
 - title: "Cisco Unified Communications Manager Upgrades"
   description: >
     - Worked on several CUCM upgrade projects from version 10.5 to 14.0, including the intermediate versions.
+  tags:
+    [
+      "Cisco CUCM",
+      "Cisco Unity Connection",
+      "Cisco Expressway",
+      "Voice Gateways",
+      "SIP",
+      "SIP Trunking",
+    ]
 
 - title: "Oracle SBC Deployments"
   description: >
     - Worked on several Oracle SBC installation, configuration and monitoring projects using Oracle Enterprise Operations Monitor.
+  tags:
+    [
+      "Oracle SBC",
+      "SIP",
+      "SIP Trunking",
+      "Dial Plan Design",
+      "PSTN Integration",
+      "Voice Gateways",
+    ]

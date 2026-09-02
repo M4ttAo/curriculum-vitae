@@ -1,17 +1,28 @@
-.tag-list {
+.skills {
 
   margin:
-    var(--space-1)
+    var(--space-2)
     0
-    var(--space-2);
+    var(--space-3);
 
 }
 
 
-.tag {
+.skill-group {
+
+  margin-bottom:
+    0.8rem;
+
+}
+
+
+.skill-group-name {
 
   display:
-    inline-block;
+    block;
+
+  margin-bottom:
+    0.35rem;
 
   font-family:
     var(--font-mono);
@@ -19,115 +30,24 @@
   font-size:
     0.7rem;
 
-  background:
-    var(--tag-bg);
+  font-weight:
+    500;
+
+  text-transform:
+    uppercase;
+
+  letter-spacing:
+    0.06em;
 
   color:
-    var(--tag-text);
+    var(--text-muted);
 
-  border-radius:
-    var(--radius);
+}
 
-  padding:
-    0.2rem 0.5rem;
+
+.skill-group .tag-list {
 
   margin:
-    0
-    0.3rem
-    0.3rem
     0;
-
-}
-
-
-.theme-toggle {
-
-  background:
-    none;
-
-  border:
-    1px solid
-    var(--border);
-
-  border-radius:
-    var(--radius);
-
-  color:
-    var(--text-muted);
-
-  font-family:
-    var(--font-mono);
-
-  font-size:
-    0.72rem;
-
-  padding:
-    0.3rem 0.65rem;
-
-  cursor:
-    pointer;
-
-}
-
-
-.theme-toggle:hover {
-
-  color:
-    var(--accent);
-
-  border-color:
-    var(--accent);
-
-}
-
-
-.hero .tagline {
-
-  font-family:
-    var(--font-mono);
-
-  font-size:
-    0.82rem;
-
-  color:
-    var(--accent);
-
-  margin-top:
-    -0.2rem;
-
-}
-
-
-.contact-line {
-
-  font-family:
-    var(--font-mono);
-
-  font-size:
-    0.78rem;
-
-  color:
-    var(--text-muted);
-
-  margin:
-    var(--space-1)
-    0
-    var(--space-3);
-
-}
-
-
-.contact-line a {
-
-  color:
-    var(--text-muted);
-
-}
-
-
-.contact-line a:hover {
-
-  color:
-    var(--accent);
 
 }

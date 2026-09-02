@@ -1,0 +1,66 @@
+# Collaboration
+Cisco CUCM: blue
+Cisco Unity Connection: blue
+Cisco Expressway: blue
+Webex Calling: blue
+Webex Control Hub: blue
+Webex Devices: blue
+Video Conferencing: blue
+
+# Voice / SBC
+SIP: cyan
+SIP Trunking: cyan
+Oracle SBC: cyan
+AudioCodes SBC: cyan
+Cisco CUBE: cyan
+Voice Gateways: cyan
+Dial Plan Design: cyan
+PSTN Integration: cyan
+MS Teams Direct Routing: cyan
+
+# Contact Center
+Genesys Cloud CX: purple
+Genesys BYOC: purple
+Contact Center: purple
+Call Routing: purple
+
+# Automation / Dev / AI
+Python: green
+Automation: green
+REST API: green
+Git: green
+Web Development: green
+Jekyll: green
+Ansible: green
+NetBox: green
+Docker Compose: green
+DevOps: green
+NetDevOps: green
+Data Processing: green
+Visualization: green
+Ollama: green
+Open WebUI: green
+MCP: green
+MCPO: green
+
+# Containers / Cloud
+Docker: orange
+Kubernetes: orange
+AWS: orange
+Cloudflare: orange
+Cloudflare Workers: orange
+
+# Networking
+Enterprise Networking: slate
+LAN: slate
+WAN: slate
+Routing & Switching: slate
+Wireless: slate
+SD-WAN: slate
+Firewall: slate
+Cisco ACI: slate
+
+# Data Center / Storage
+Cisco UCS: purple
+VMware: purple
+VMware ESXi: purple

@@ -1,0 +1,5 @@
+{%- assign color = site.data.tags[include.tag] | default: 'default' -%}
+
+<span class="tag tag--{{ color }}">
+  {{ include.tag }}
+</span>
