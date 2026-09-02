@@ -1,0 +1,22 @@
+- vendor: "Cisco"
+  focus: "Unified Collaboration, Automation and AI Infrastructure"
+  items:
+    - "Cisco CCNA Routing and Switching (200-301)"
+    - "Cisco CCNA Security (210-260)"
+    - "Cisco CCNA Collaboration (210-060)"
+    - "Cisco Specialist - Collaboration Core (350-801)"
+    - "Cisco Devnet - Collaboration and Automation Programmability (DEVCLD 300-930)"
+    - "Webex Calling Administrator"
+    - "Webex Design and Implementation Specialist"
+
+- vendor: "Oracle"
+  focus: "Oracle Collaboration Session Border Controller"
+  items:
+    - "Oracle ESBC Basic Implementation Specialist"
+    - "Oracle ESBC Advanced Implementation Consultant"
+    - "Oracle ESBC Troubleshooting Specialist"
+
+- vendor: "Audiocodes"
+  focus: "Audiocodes SBC and VoIP Solutions"
+  items:
+    - "Audiocodes SBC in Microsoft Teams Environment Essential & Configuration"

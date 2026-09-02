@@ -1,2 +1,35 @@
+- group: "Collaboration"
+  items:
+    - "Cisco Unified Communications Manager & IM&Presence"
+    - "Cisco Unity Connection"
+    - "Cisco Expressway"
+    - "Cisco Webex Calling"
+    - "Cisco Webex Control Hub"
+    - "Cisco Webex Devices"
+    - "Video Conferencing"
+    - "SIP"
+    - "PSTN Integration"
+    - "Voice Gateways"
+
+- group: "Session Border Controllers"
+  items:
+    - "Oracle Enterprise SBC"
+    - "AudioCodes SBC"
+    - "Cisco CUBE"
+    - "SIP Routing"
+    - "SIP Manipulation"
+    - "Dial Plan Design"
+
 - group: "Automation"
-  items: ["Python", "Ansible", "Git", "Kubernetes", "IPFabric Extensions", "REST API", "Docker", "Docker Compose", "DevOps", "NetDevOps", "Data Processing"]
+  items:
+    - "Python"
+    - "Ansible"
+    - "Git"
+    - "Kubernetes"
+    - "IPFabric Extensions"
+    - "REST API"
+    - "Docker"
+    - "Docker Compose"
+    - "DevOps"
+    - "NetDevOps"
+    - "Data Processing"

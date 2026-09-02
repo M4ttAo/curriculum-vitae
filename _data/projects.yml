@@ -1,0 +1,66 @@
+```yaml
+
+- title: "Manufacturing - Collaboration Consultancy"
+  period: "3+ years"
+  description: >
+    - Provided 360° consultancy in the Collaboration area, covering design, development and implementation of new solutions.
+
+    - Worked on on-premises to cloud migrations and replacement of legacy infrastructures.
+
+    - Developed Python scripts to automate processes and custom web pages to automate user tasks.
+
+- title: "Manufacturing - Network Automation"
+  period: "4 months"
+  description: >
+    - Developed automation scripts for automatic backup of network devices.
+
+    - Developed a custom extension for IP Fabric to perform automated compliance checks on network and firewall device configurations.
+
+- title: "Oil & Gas - Collaboration Infrastructure Upgrade"
+  period: "7 months"
+  description: >
+    - Worked on a major upgrade of the entire Collaboration infrastructure for an Oil & Gas company, involving 4 Cisco Unified Communications Manager clusters and more than 40,000 devices worldwide.
+
+- title: "Oil & Gas - Oracle SBC"
+  period: "1.5 years"
+  description: >
+    - Redesigned the voice infrastructure for a company operating vessels and offshore facilities worldwide.
+
+    - Designed the new solution, tested it in the lab and migrated the offshore facilities connecting to the main site through Oracle SBCs over satellite connections.
+
+- title: "Assurance - Oracle SBC"
+  description: >
+    - Replaced Cisco Voice Gateways with centralized Oracle SBCs, connecting users and the Contact Center to the PSTN through three different providers.
+
+    - Integrated different IVRs and external voice services in America and connected services to Microsoft Teams through Direct Routing and to other external providers.
+
+- title: "Food Company - SD-WAN Implementation"
+  period: "3 weeks onsite"
+  description: >
+    - Replaced the existing iWAN routers with new SD-WAN devices across 4 sites and 1 data center in America.
+
+    - Worked onsite in America for three weeks.
+
+- title: "UEFA Euro 2020"
+  description: >
+    - Took part in the team that built the network connectivity for the stadium and kept the infrastructure operational during the tournament.
+
+    - The network supported users, photographers, accreditation devices, broadcasting companies, VAR and other services.
+
+- title: "Manufacturing Company - Webex Migration"
+  period: "1.5 years"
+  description: >
+    - Worked on the migration of users from Cisco Unified Communications Manager directly to Webex across 12 countries.
+
+    - Integrated three different on-premises CUCM clusters serving 5 sites with Webex, allowing users to call each other independently of where they were registered.
+
+    - Supported the migration of the Contact Center from on-premises infrastructure to Genesys Cloud.
+
+- title: "Cisco Unified Communications Manager Upgrades"
+  description: >
+    - Worked on several CUCM upgrade projects from version 10.5 to 14.0, including the intermediate versions.
+
+- title: "Oracle SBC Deployments"
+  description: >
+    - Worked on several Oracle SBC installation, configuration and monitoring projects using Oracle Enterprise Operations Monitor.
+```

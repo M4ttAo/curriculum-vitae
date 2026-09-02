@@ -1,0 +1,39 @@
+```yaml
+- company: "NTT (ex Dimension Data)"
+  location: "Milan"
+  roles:
+    - title: "Senior Technical Services Engineer"
+      period: "2020 - Present"
+      description: >
+        - Focused primarily on Collaboration infrastructures, while also contributing to selected Network projects within the Technical Services delivery team.
+
+        - Delivered customer infrastructure upgrades, deployments and evolution projects.
+
+        - Developed Python scripts to automate migration activities, configuration exports, log collection and other tasks.
+
+        - Developed custom web interfaces and extensions for customer-specific requirements, deployed on internal servers and on Kubernetes clusters on AWS.
+
+        - Created As-Built and Low-Level Design documentation for delivered projects.
+
+    - title: "Technical Services Engineer"
+      period: "2016 - 2020"
+      description: >
+        - Worked within the Technical Services delivery team on customer infrastructure upgrades, deployments and evolution projects.
+
+        - Focused primarily on Collaboration infrastructures, while also contributing to selected Network projects.
+
+        - Delivered onsite activities at customer locations across Italy, Europe and America until 2020.
+
+        - Created As-Built and Low-Level Design documentation for delivered projects.
+
+    - title: "Service Desk Engineer"
+      period: "2014 - 2016"
+      description: >
+        - Acted as the first point of contact for issues related to customer infrastructures covered by Managed Services contracts.
+
+        - Managed small, medium and large business infrastructures across different technologies, especially Cisco network and wireless devices and, for a specific customer, Juniper firewalls, as a first-level operations engineer.
+
+        - Used monitoring platforms including SolarWinds Orion and WhatsUp Gold and tracked activities through ITSM and customer ticketing systems such as Altiris.
+
+        - Handled incident resolution according to Service Level Agreements in a 24/7 shift-based environment.
+```
