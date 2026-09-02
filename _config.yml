@@ -25,6 +25,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-
-include:
-  - _headers
