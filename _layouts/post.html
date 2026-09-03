@@ -3,26 +3,40 @@ layout: default
 ---
 <article class="post h-entry">
 
+  {% if page.cover %}
+    <img class="post-cover"
+         src="{{ page.cover | relative_url }}"
+         alt="{{ page.title }}">
+  {% endif %}
+
   <header class="post-header">
+
+    {% if page.icon %}
+      <p class="post-icon" aria-hidden="true">{{ page.icon }}</p>
+    {% endif %}
 
     <h1 class="p-name">{{ page.title }}</h1>
 
-    <p class="meta">
+    <div class="post-meta">
+      <span>
+        Written by
+        <strong>{{ site.data.profile.name }}</strong>
+      </span>
 
       <time class="dt-published"
             datetime="{{ page.date | date_to_xmlschema }}">
         {{ page.date | date: "%-d %B %Y" }}
       </time>
+    </div>
 
-      {% if page.tags %}
-        <span class="tag-list">
-          {% for tag in page.tags %}
-            {% include tag-badge.html tag=tag %}
-          {% endfor %}
-        </span>
-      {% endif %}
+    {% if page.tags %}
+      <p class="tag-list">
+        {% for tag in page.tags %}
+          {% include tag-badge.html tag=tag %}
+        {% endfor %}
+      </p>
+    {% endif %}
 
-    </p>
 
   </header>
 
