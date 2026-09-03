@@ -16,6 +16,7 @@ tags:
 ## The "Corporate" Constraint
 
 In a corporate environment, you don’t always choose the tools—and you certainly don’t choose the naming conventions. This project is about how I used **Power Automate** to adapt a rigid corporate tool to my personal productivity needs, creating a seamless experience without interfering with the company’s standard processes.
+
 ---
 ### **The Problem: The "Task-ID" Blindness**
 
@@ -29,10 +30,13 @@ In the company i work for, we use a tool that allows Project Managers to assign 
 ![The Outlook widget showing truncated task titles](/assets/images/automations/calendar-optimization/problem.png)
 
 I couldn't tell at a glance if I was heading into a client meeting or a training session without manually opening the app. To be honest, it was a purely aesthetic issue, but it was a constant annoyance for me.
+
 ---
 ### **The Constraint**
 
 Obviously, I couldn't ask the company to change the source tool just for my **aesthetic preference**, and manually renaming every event was out of the question since they are constantly added, deleted, or updated. I needed a **middleware** that could adapt the calendar to my needs.
+
+
 ---
 ### **The Solution: A Power Automate Flow** ⚡
 
@@ -49,6 +53,7 @@ The logic behind the flow is straightforward: every time an event is added or up
 If the tag is missing, the flow knows this is the first time it’s being triggered and proceeds to rename the event. However, since the flow itself 'updates' the calendar to change the name, this would normally trigger the flow again, creating an **infinite loop**.
 
 To prevent this, I use the **'-PA'** suffix as a tag. By adding it to the new subject, the flow can run a simple 'IF' condition during the next trigger: if it sees the tag, it knows the job is already done and stops immediately. It's a simple yet effective 'state machine' logic.
+
 ---
 ### The Flow
 
