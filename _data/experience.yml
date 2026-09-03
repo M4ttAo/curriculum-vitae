@@ -1,37 +1,37 @@
-- company: "NTT (ex Dimension Data)"
+- company: "NTT Data"
   location: "Milan"
   roles:
     - title: "Senior Technical Services Engineer"
       period: "2020 - Present"
       description: >
-        - Focused primarily on Collaboration infrastructures, while also contributing to selected Network projects within the Technical Services delivery team.
+        - Specialized in Collaboration infrastructures, while also supporting selected Network initiatives within the Technical Services delivery team.
 
-        - Delivered customer infrastructure upgrades, deployments and evolution projects.
+        - Designed and implemented customer infrastructure upgrades, deployments and technology evolution projects.
 
-        - Developed Python scripts to automate migration activities, configuration exports, log collection and other tasks.
+        - Automated migration activities, configuration exports, log collection and operational procedures by developing Python scripts.
 
-        - Developed custom web interfaces and extensions for customer-specific requirements, deployed on internal servers and on Kubernetes clusters on AWS.
+        - Built custom web interfaces and extensions for customer-specific requirements, deployed on internal servers and Kubernetes clusters running on AWS.
 
-        - Created As-Built and Low-Level Design documentation for delivered projects.
+        - Created As-Built and Low-Level Design documentation for delivered solutions.
 
     - title: "Technical Services Engineer"
       period: "2016 - 2020"
       description: >
-        - Worked within the Technical Services delivery team on customer infrastructure upgrades, deployments and evolution projects.
+        - Expanded from operational support into the delivery of customer infrastructure upgrades, deployments and evolution initiatives.
 
-        - Focused primarily on Collaboration infrastructures, while also contributing to selected Network projects.
+        - Developed hands-on expertise in Collaboration technologies, while contributing to selected Network projects.
 
-        - Delivered onsite activities at customer locations across Italy, Europe and America until 2020.
+        - Performed onsite implementation and support activities at customer locations across Italy, Europe and America.
 
-        - Created As-Built and Low-Level Design documentation for delivered projects.
+        - Produced As-Built and Low-Level Design documentation for implemented solutions.
 
     - title: "Service Desk Engineer"
       period: "2014 - 2016"
       description: >
-        - Acted as the first point of contact for issues related to customer infrastructures covered by Managed Services contracts.
+        - Provided first-level support for customer infrastructures covered by Managed Services contracts.
 
-        - Managed small, medium and large business infrastructures across different technologies, especially Cisco network and wireless devices and, for a specific customer, Juniper firewalls, as a first-level operations engineer.
+        - Supported small, medium and large business environments across multiple technologies, with a primary focus on Cisco network and wireless devices and Juniper firewalls.
 
-        - Used monitoring platforms including SolarWinds Orion and WhatsUp Gold and tracked activities through ITSM and customer ticketing systems such as Altiris.
+        - Monitored infrastructure health using SolarWinds Orion and WhatsUp Gold, while tracking activities through ITSM and customer ticketing platforms such as Altiris.
 
-        - Handled incident resolution according to Service Level Agreements in a 24/7 shift-based environment.s
+        - Resolved incidents in accordance with Service Level Agreements within a 24/7 shift-based environment.
