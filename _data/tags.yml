@@ -27,6 +27,7 @@ Call Routing: purple
 # Automation / Dev / AI
 Python: green
 Automation: green
+automation: green
 REST API: green
 Git: green
 Web Development: green
@@ -42,13 +43,36 @@ Ollama: green
 Open WebUI: green
 MCP: green
 MCPO: green
+Google Apps Script: green
+Canva: green
+LatinHub: green
+Make.com: green
+Telegram Bot: green
+Power Automate: green
+iPhone Shortcuts: green
+Instagram Automation: green
+WhatsApp Automation: green
+bot: green
+database: green
+Notion: green
+Apple Intelligence: green
 
 # Containers / Cloud
 Docker: orange
 Kubernetes: orange
 AWS: orange
+AWS Lambda: orange
+AWS S3: orange
+Google Drive: orange
 Cloudflare: orange
 Cloudflare Workers: orange
+
+# Productivity / Microsoft
+outlook: blue
+calendar: blue
+microsoft: blue
+SharePoint: blue
+Google Sheets: blue
 
 # Networking
 Enterprise Networking: slate
