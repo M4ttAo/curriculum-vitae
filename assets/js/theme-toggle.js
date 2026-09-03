@@ -42,10 +42,20 @@
 
     if (button) {
 
-      button.textContent =
+      const nextTheme =
         theme === "dark"
           ? "light"
           : "dark";
+
+      button.setAttribute(
+        "aria-label",
+        `Use ${nextTheme} theme`
+      );
+
+      button.setAttribute(
+        "title",
+        `Use ${nextTheme} theme`
+      );
 
     }
 
