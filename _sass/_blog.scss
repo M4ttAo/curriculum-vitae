@@ -7,7 +7,7 @@
   position: absolute;
   top: 1.5rem;
   bottom: 1.5rem;
-  left: 4.35rem;
+  left: 4.55rem;
   width: 1px;
   background: var(--border);
   content: "";
@@ -16,7 +16,7 @@
 .timeline-item {
   position: relative;
   display: grid;
-  grid-template-columns: 5.5rem minmax(0, 1fr);
+  grid-template-columns: 5.75rem minmax(0, 1fr);
   gap: var(--space-2);
   align-items: start;
   margin-bottom: var(--space-2);
@@ -61,8 +61,10 @@
 
 .timeline-card {
   display: grid;
-  grid-template-columns: 11rem minmax(0, 1fr);
-  min-height: 10rem;
+  grid-template-columns: 9rem minmax(0, 1fr);
+  max-width: 38rem;
+  min-height: 8.5rem;
+  margin-left: 0.5rem;
   overflow: hidden;
   background: var(--bg-soft);
   border: 1px solid var(--border);
@@ -144,11 +146,11 @@
 
 @media (max-width: 600px) {
   .post-timeline::before {
-    left: 3.35rem;
+    left: 3.45rem;
   }
 
   .timeline-item {
-    grid-template-columns: 4.25rem minmax(0, 1fr);
+    grid-template-columns: 4.4rem minmax(0, 1fr);
     gap: var(--space-1);
   }
 
@@ -159,6 +161,7 @@
   .timeline-card {
     grid-template-columns: 7rem minmax(0, 1fr);
     min-height: 8rem;
+    margin-left: 0.35rem;
   }
 
   .timeline-card-body {
