@@ -110,6 +110,6 @@ A simple but vital “database”. For every club (using the **Short Name**), th
 
 - **Why?** When the "Automation Engine" creates the post, it looks up this sheet to automatically tag the right instagram pages in the photo.
 
-[02 - The Warehouse 🏬](/blog/02-the-warehouse/) ← Previous Post
+[Next Post →](/blog/04-the-automation-engine/) 
 
-Next Post → [04 - The Automation Engine 💻](/blog/04-the-automation-engine/)
+[← Preivous Post](/blog/02-the-warehouse/) 

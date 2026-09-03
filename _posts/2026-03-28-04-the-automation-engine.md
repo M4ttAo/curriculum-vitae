@@ -51,6 +51,6 @@ The system is designed to be **smart**: if there are no parties scheduled for a 
 
 A standardized page, that automatically publish all the parties without manual intervention.
 
-[03 - The Utilities for the Engine ⚒️](/blog/03-the-utilities/) ← Previous Post
+[Next Post →](/blog/03-the-utilities/) 
 
-Next Post → [05 - Whatsapp Automation 💬](/blog/05-whatsapp-automation/)
+[← Preivous Post](/blog/05-whatsapp-automation/) 

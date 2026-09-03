@@ -109,6 +109,6 @@ When a file is cleared for sync, it is copied to the final Outbound directory an
 
 This logic ensures that the **Outbound** folder is always a perfect, clean reflection of what needs to be posted. By implementing "Newer vs. Older" file comparison, we gave SMMs the freedom to update a flyer at the last minute without breaking the automation.
 
-[01 - The Brain 🧠](/blog/01-the-brainturning-google-sheets-into-a-database/) ← Previous Post
+[Next Post →](/blog/03-the-utilities/) 
 
-Next Post → [03 - The Utilities for the Engine ⚒️](/blog/03-the-utilities/)
+[← Preivous Post](/blog/01-the-brainturning-google-sheets-into-a-database/) 

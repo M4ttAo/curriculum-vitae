@@ -66,6 +66,7 @@ This is the automation
 
 By leveraging iOS Shortcuts as a "Middleware," I ensured that the community stays informed and the contributors stay on track. This turned a potential "manual nightmare" into a scheduled, hands-free routine that runs while I'm starting my day.
 
-[04 - The Automation Engine 💻](/blog/04-the-automation-engine/) ← Previous Post
 
-Next Post → [06 - Drawing the Flyers 🖼️](/blog/06-canva-flyers/)
+[Next Post →](/blog/04-the-automation-engine/) 
+
+[← Preivous Post](/blog/06-canva-flyers/) 

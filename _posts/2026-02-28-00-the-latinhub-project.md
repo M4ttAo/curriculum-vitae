@@ -103,4 +103,4 @@ It runs so smoothly now that, sometimes, I actually forget it’s still out ther
 
 ## Do you wanna see the result?
 
-Next Post [→](/blog/01-the-brainturning-google-sheets-into-a-database/) *[01 - The Brain](/blog/01-the-brainturning-google-sheets-into-a-database/)* [🧠](/blog/01-the-brainturning-google-sheets-into-a-database/)
+[Next Post →](/blog/01-the-brainturning-google-sheets-into-a-database/) 

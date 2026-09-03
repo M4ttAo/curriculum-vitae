@@ -47,4 +47,4 @@ By automating the data generation and the final sorting, I turned a full day of 
 - **Accuracy:** The Python script ensures that "Milano - March 24" never ends up in the "Roma - March 25" folder.
 - **Scalability:** If we add 10 more cities tomorrow, the workload only increases by a few minutes, not hours.
 
-[05 - Whatsapp Automation 💬](/blog/05-whatsapp-automation/) ← Previous Post
+[← Preivous Post](/blog/05-whatsapp-automation/) 

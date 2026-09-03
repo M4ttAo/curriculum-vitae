@@ -159,3 +159,7 @@ With this architecture in place, our spreadsheet is now a self-sustaining ecosys
 Whether we are at home or on the go, we can trigger, monitor, and override our entire automation stack from our smartphones—anytime, anywhere.
 
 The best part? **We built a professional-grade backend for $0.** 🎉
+
+[Next Post →](/blog/02-the-warehouse/) 
+
+[← Preivous Post](/blog/00-the-latinhub-project/) 
