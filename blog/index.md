@@ -5,7 +5,14 @@ permalink: /blog/
 ---
 
 <div class="post-timeline">
+{% assign previous_year = "" %}
 {% for post in site.posts %}
+  {% assign post_year = post.date | date: "%Y" %}
+  {% if post_year != previous_year %}
+    <h2 class="timeline-year">{{ post_year }}</h2>
+    {% assign previous_year = post_year %}
+  {% endif %}
+
   <article class="timeline-item">
     <div class="timeline-date">
       <time datetime="{{ post.date | date_to_xmlschema }}">
