@@ -9,7 +9,7 @@ icon: "🍳"
 tags:
   - Instagram Automation
   - bot
-  - iphone Shortcuts
+  - iPhone Shortcuts
   - Notion
   - Apple Intelligence
 ---
