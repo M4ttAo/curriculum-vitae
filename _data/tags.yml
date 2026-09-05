@@ -1,91 +1,106 @@
-# Collaboration
-Cisco CUCM: blue
-Cisco Unity Connection: blue
-Cisco Expressway: blue
-Webex Calling: blue
-Webex Control Hub: blue
-Webex Devices: blue
-Video Conferencing: blue
+Collaboration:
+  color: blue
+  items:
+    - Cisco CUCM
+    - Cisco Unity Connection
+    - Cisco Expressway
+    - Webex Calling
+    - Webex Control Hub
+    - Webex Devices
+    - Video Conferencing
 
-# Voice / SBC
-SIP: cyan
-SIP Trunking: cyan
-Oracle SBC: cyan
-AudioCodes SBC: cyan
-Cisco CUBE: cyan
-Voice Gateways: cyan
-Dial Plan Design: cyan
-PSTN Integration: cyan
-MS Teams Direct Routing: cyan
+Voice / SBC:
+  color: cyan
+  items:
+    - SIP
+    - SIP Trunking
+    - Oracle SBC
+    - AudioCodes SBC
+    - Cisco CUBE
+    - Voice Gateways
+    - Dial Plan Design
+    - PSTN Integration
+    - MS Teams Direct Routing
 
-# Contact Center
-Genesys Cloud CX: purple
-Genesys BYOC: purple
-Contact Center: purple
-Call Routing: purple
+Contact Center:
+  color: purple
+  items:
+    - Genesys Cloud CX
+    - Genesys BYOC
+    - Contact Center
+    - Call Routing
 
-# Automation / Dev / AI
-Python: green
-Automation: green
-automation: green
-Power Automate: green
-REST API: green
-Git: green
-Web Development: green
-Jekyll: green
-Ansible: green
-NetBox: green
-Docker Compose: green
-DevOps: green
-NetDevOps: green
-Data Processing: green
-Visualization: green
-Ollama: green
-Open WebUI: green
-MCP: green
-MCPO: green
-Google Apps Script: green
-Canva: green
-LatinHub: green
-Make.com: green
-Telegram Bot: green
-Power Automate: green
-iPhone Shortcuts: green
-Instagram Automation: green
-WhatsApp Automation: green
-bot: green
-database: green
-Notion: green
-Apple Intelligence: green
+Automation / Dev / AI:
+  color: green
+  items:
+    - Python
+    - Automation
+    - automation
+    - Power Automate
+    - REST API
+    - Git
+    - Web Development
+    - Jekyll
+    - Ansible
+    - NetBox
+    - Docker Compose
+    - DevOps
+    - NetDevOps
+    - Data Processing
+    - Visualization
+    - Ollama
+    - Open WebUI
+    - MCP
+    - MCPO
+    - Google Apps Script
+    - Canva
+    - LatinHub
+    - Make.com
+    - Telegram Bot
+    - iPhone Shortcuts
+    - Instagram Automation
+    - WhatsApp Automation
+    - bot
+    - database
+    - Notion
+    - Apple Intelligence
 
-# Containers / Cloud
-Docker: orange
-Kubernetes: orange
-AWS: orange
-AWS Lambda: orange
-AWS S3: orange
-Google Drive: orange
-Cloudflare: orange
-Cloudflare Workers: orange
+Containers / Cloud:
+  color: orange
+  items:
+    - Docker
+    - Kubernetes
+    - AWS
+    - AWS Lambda
+    - AWS S3
+    - Google Drive
+    - Cloudflare
+    - Cloudflare Workers
 
-# Productivity / Microsoft
-outlook: blue
-calendar: blue
-microsoft: blue
-SharePoint: blue
-Google Sheets: blue
+Productivity / Microsoft:
+  color: blue
+  items:
+    - outlook
+    - calendar
+    - microsoft
+    - SharePoint
+    - Google Sheets
 
-# Networking
-Enterprise Networking: slate
-LAN: slate
-WAN: slate
-Routing & Switching: slate
-Wireless: slate
-SD-WAN: slate
-Firewall: slate
-Cisco ACI: slate
+Networking:
+  color: slate
+  items:
+    - Enterprise Networking
+    - LAN
+    - WAN
+    - Routing & Switching
+    - Wireless
+    - SD-WAN
+    - Firewall
+    - Cisco ACI
 
-# Data Center / Storage
-Cisco UCS: purple
-VMware: purple
-VMware ESXi: purple
+Data Center / Storage:
+  color: purple
+  items:
+    - Cisco UCS
+    - VMware
+    - VMware ESXi

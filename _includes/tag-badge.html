@@ -1,4 +1,9 @@
-{%- assign color = site.data.tags[include.tag] | default: 'default' -%}
+{%- assign color = 'slate' -%}
+{%- for category in site.data.tags -%}
+  {%- if category[1].items contains include.tag -%}
+    {%- assign color = category[1].color -%}
+  {%- endif -%}
+{%- endfor -%}
 <a class="tag tag--{{ color }}"
    href="{{ include.tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">
   {{ include.tag }}

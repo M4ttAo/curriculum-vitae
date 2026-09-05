@@ -22,7 +22,9 @@
   {% endif %}
 
 
-  {% include skills.html compact=include.compact %}
+  {% unless include.hide_skills %}
+    {% include skills.html compact=include.compact %}
+  {% endunless %}
 
   {% include contact.html %}
 
