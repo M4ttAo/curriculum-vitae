@@ -71,6 +71,42 @@ h2 {
 }
 
 
+/* Blog content uses an editorial hierarchy instead of CV section labels. */
+
+.post .e-content h1,
+.post .e-content h2,
+.post .e-content h3,
+.post .e-content h4 {
+  font-family: var(--font-heading);
+  color: var(--text);
+  text-transform: none;
+  letter-spacing: -0.02em;
+  border: 0;
+}
+
+.post .e-content h1 {
+  margin: var(--space-4) 0 var(--space-2);
+  font-size: 1.65rem;
+}
+
+.post .e-content h2 {
+  margin: var(--space-4) 0 var(--space-2);
+  padding: 0;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.post .e-content h3 {
+  margin: var(--space-3) 0 var(--space-1);
+  font-size: 1.1rem;
+}
+
+.post .e-content h4 {
+  margin: var(--space-2) 0 var(--space-1);
+  font-size: 1rem;
+}
+
+
 h3 {
 
   font-size: 1.05rem;
@@ -130,6 +166,11 @@ time,
   color:
     var(--text-faint);
 
+}
+
+
+.post .e-content strong {
+  font-weight: 600;
 }
 
 
