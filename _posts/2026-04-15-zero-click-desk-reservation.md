@@ -13,7 +13,7 @@ tags:
   - automation
 ---
 
-# Never Forget Your Desk Again
+## Never Forget Your Desk Again
 
 Let’s face it: in a hybrid work world, the most tedious part of going into the office isn't the commute—it’s the **desk-booking bureaucracy**.
 
@@ -28,7 +28,7 @@ By bridging the gap between **iOS Shortcuts** and **Power Automate**, I’ve aut
 
 The result? My desk is secured via API before I’ve even stepped out of the car.
 
-# Bypassing the App with Email Triggers
+## Bypassing the App with Email Triggers
 
 In this case, the tool used to book the desk is a **SharePoint list exposed via a Power BI application**. While Power BI is great for visualization, using it as an input interface every morning is far from efficient. It’s slow to load and adds unnecessary friction to a simple task.
 
@@ -48,7 +48,7 @@ I need to use a personal email address, because company policies blocks the use 
 
 I used email triggers, because a Power Automate Webhook is available only with Premium subscription.
 
-# The Flow
+## The Flow
 
 ### The Trigger
 
@@ -93,7 +93,7 @@ Once the email is received, the Power Automate flow performs a series of securit
 
 **Cleanup:** Finally, if the desk is successfully booked, the flow deletes the trigger email to keep my inbox clean and clutter-free.
 
-# Conclusion
+## Conclusion
 
 This is a simple yet powerful automation that eliminates the friction of manual check-ins. By moving the logic to the background, I no longer need to open the Power BI app or even think about my reservation—it just happens.
 

@@ -14,7 +14,7 @@ tags:
   - Apple Intelligence
 ---
 
-# **Automating Recipe Extraction: From Social Media to Notion**
+## **Automating Recipe Extraction: From Social Media to Notion**
 
 We’ve all been there: scrolling through Instagram or TikTok, landing on a mouth-watering reel, and hitting that "Save" button, only for the recipe to disappear into a black hole of forgotten bookmarks. To bridge the gap between social media inspiration and actual cooking, I’ve built a **seamless extraction workflow**. Instead of manually typing out ingredients or taking dozens of screenshots, I created an automation that does the heavy lifting for me. By simply sharing a link to an **iOS Shortcut**, the system parses the content, identifies the key components, and instantly generates a structured page in **Notion,** with list of ingredients and step by step to reproduce it, without the need to watch the video again.
 
@@ -24,7 +24,7 @@ This isn't just a simple copy-paste. The automation is designed to:
 - **AI-Powered Context:** It intelligently invents a clear, descriptive title based on the actual content it finds.
 - **Zero-Friction Storage:** It bypasses the mess of browser tabs, creating a clean, formatted entry in your personal Notion database in seconds.
 
-# **The Tech Stack: Behind the Scenes**
+## **The Tech Stack: Behind the Scenes**
 
 I built a simple three-step process that avoids the use of 3rd party software, and works directly on your iPhone.
 
@@ -36,7 +36,7 @@ I built a simple three-step process that avoids the use of 3rd party software, a
 
 ![The iOS Shortcut](/assets/images/automations/automating-recipe-extraction/shortcut.png)
 
-# **The Step-by-Step Process**
+## **The Step-by-Step Process**
 
 ### **Step 1: The iOS Shortcut Trigger**
 
@@ -86,7 +86,7 @@ The Shortcut parses the AI response using line breaks, allowing it to isolate th
 
 ![The generated Notion page](/assets/images/automations/automating-recipe-extraction/notion-page.png)
 
-# Conclusion
+## Conclusion
 
 This automation does more than just save time during meal prep by removing the need to re-watch videos repeatedly; it transforms a fleeting social media moment into a structured **"To-Try" list** directly inside my notes.
 
