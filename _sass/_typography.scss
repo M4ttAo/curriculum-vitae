@@ -54,7 +54,7 @@ h2 {
 
   letter-spacing: 0.08em;
 
-  color: var(--text-muted);
+  color: var(--section-heading);
 
   border-bottom:
     1px solid
@@ -78,7 +78,7 @@ h2 {
 .post .e-content h3,
 .post .e-content h4 {
   font-family: var(--font-heading);
-  color: var(--text);
+  color: var(--section-heading);
   text-transform: none;
   letter-spacing: -0.02em;
   border: 0;
