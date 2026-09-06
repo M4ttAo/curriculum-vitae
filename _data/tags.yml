@@ -21,6 +21,8 @@ Voice / SBC:
     - Dial Plan Design
     - PSTN Integration
     - MS Teams Direct Routing
+    - Collaboration Infrastructure
+    - Cloud Calling
 
 Contact Center:
   color: purple
@@ -64,6 +66,8 @@ Automation / Dev / AI:
     - database
     - Notion
     - Apple Intelligence
+    - Python Development
+    - API Integration
 
 Containers / Cloud:
   color: orange
@@ -76,6 +80,7 @@ Containers / Cloud:
     - Google Drive
     - Cloudflare
     - Cloudflare Workers
+    - Cloud & Container Infrastructure
 
 Productivity / Microsoft:
   color: blue
@@ -97,6 +102,7 @@ Networking:
     - SD-WAN
     - Firewall
     - Cisco ACI
+    - Network Infrastructure
 
 Data Center / Storage:
   color: purple
