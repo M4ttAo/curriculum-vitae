@@ -20,7 +20,7 @@ Most of my personal projects start with a simple question:
 
 > "Why am I still doing this manually?"
 
-That question led to projects involving Python, Google Sheets, AWS, APIs, Power Automate, iOS Shortcuts, and everything necessary to make taht automation work.
+That question led to projects involving Python, Google Sheets, AWS, APIs, Power Automate, iOS Shortcuts, and everything necessary to make that automation work.
 
 LatinHub is the biggest example. What started as a way to collect Salsa and Bachata events across Italy became an automated ecosystem capable of managing content, files, schedules and communications across multiple platforms.
 
