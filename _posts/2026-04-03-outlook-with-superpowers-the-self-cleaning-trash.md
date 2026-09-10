@@ -13,11 +13,11 @@ tags:
   - automation
 ---
 
-# The Limit **for a clutter-free life**
+## The Limit **for a clutter-free life**
 
 In my quest to automate as many repetitive tasks as possible, I have spent years perfecting a system of Outlook rules. My goal was simple: automatically delete incoming "noise" so I could focus on what truly matters, but i hit a wall!
 
-The problem is that Outlook rules are fundamentally limited. They can *move* an email to the Trash, but they cannot permanently destroy it or manage its lifecycle. Over time, this creates a massive digital backlog. Without realizing it, my Trash folder grew into a monster of **5,000, 10,000, even 15,000 emails**.
+The problem is that Outlook rules are fundamentally limited. They can _move_ an email to the Trash, but they cannot permanently destroy it or manage its lifecycle. Over time, this creates a massive digital backlog. Without realizing it, my Trash folder grew into a monster of **5,000, 10,000, even 15,000 emails**.
 
 This isn't just about being untidy. This massive accumulation leads to:
 
@@ -26,7 +26,7 @@ This isn't just about being untidy. This massive accumulation leads to:
 
 Essentially, by using standard rules, I wasn't solving the problem—I was just moving it to a different room.
 
-# **Beyond the Rules: The Power Automate Solution**
+## **Beyond the Rules: The Power Automate Solution**
 
 To break through this limit, I decided to stop relying on Outlook’s native filters and built a dedicated automation using **Power Automate**.
 
@@ -34,7 +34,7 @@ Unlike standard rules, which only trigger the moment an email arrives, Power Aut
 
 I designed a flow that scans the Trash folder, identifies the "dead wood" based on the filters i’ve set, and handles the final deletion without me ever having to click "Empty Folder" again.
 
-# The Flow
+## The Flow
 
 The logic is simple and effective. Instead of a complex, real-time system, I built a "silent janitor" that operates while I sleep. Here is how the automation works:
 
@@ -59,7 +59,7 @@ If it match the flow will delete that email using the Action “Delete Email” 
 
 At the end of the flow i will receive a notification with “Mail Deleted” if the flow is success, or “Issue deleting email, flow failed” if it fails.
 
-# Goodbye Email Noise
+## Goodbye Email Noise
 
 By combining my existing Outlook rules with this Power Automate flow, I’ve effectively given my inbox a set of **superpowers**.
 

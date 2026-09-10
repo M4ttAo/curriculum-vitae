@@ -127,15 +127,16 @@ html:not([data-theme="dark"]) .theme-toggle-moon {
 }
 
 .hero p.tagline {
-  font-family: var(--font-mono);
-  font-size: 0.9rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 500;
   color: var(--text-muted);
   margin-top: -0.3rem;
 }
 
 .contact-line {
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
   color: var(--text-muted);
   margin: var(--space-1) 0 var(--space-3);
 }
@@ -155,6 +156,7 @@ html:not([data-theme="dark"]) .theme-toggle-moon {
   margin: 0 0 var(--space-3);
   object-fit: cover;
   border-radius: var(--radius);
+  border: 1px solid var(--border);
 }
 
 .post-icon {
@@ -187,6 +189,8 @@ html:not([data-theme="dark"]) .theme-toggle-moon {
   height: auto;
   margin: var(--space-3) 0;
   border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-soft);
 }
 
 @media (max-width: 480px) {

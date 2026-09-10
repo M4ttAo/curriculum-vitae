@@ -1,5 +1,11 @@
-<p class="tag-list">
-  {% for group in site.data.skills %}
-    {% for item in group.items %}{% include tag-badge.html tag=item %}{% endfor %}
-  {% endfor %}
+<p class="tag-list{% if include.compact %} skills-summary{% endif %}">
+  {% if include.compact %}
+    {% for item in site.data.profile.featured_skills %}
+      {% include tag-badge.html tag=item %}
+    {% endfor %}
+  {% else %}
+    {% for group in site.data.skills %}
+      {% for item in group.items %}{% include tag-badge.html tag=item %}{% endfor %}
+    {% endfor %}
+  {% endif %}
 </p>

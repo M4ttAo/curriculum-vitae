@@ -34,10 +34,12 @@
     none;
 
   font-family:
-    var(--font-mono);
+    var(--font-body);
 
   font-size:
-    0.85rem;
+    0.9rem;
+
+  font-weight: 500;
 
 }
 
@@ -67,10 +69,24 @@
 .site-header nav .site-name {
 
   color:
-    var(--text);
+    var(--section-heading);
 
   font-weight:
-    500;
+    700;
+
+  font-size:
+    1rem;
+
+  letter-spacing:
+    -0.02em;
+
+}
+
+
+.site-header nav .site-name:hover {
+
+  color:
+    var(--accent-hover);
 
 }
 
