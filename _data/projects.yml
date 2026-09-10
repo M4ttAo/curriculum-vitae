@@ -12,11 +12,13 @@
       "Webex Calling",
       "Kubernetes",
       "SIP",
-      "PSTN Integration",
-      "Python",
+      "Python Development",
       "Automation",
-      "REST API",
+      "API Integration",
       "Web Development",
+      "Collaboration Infrastructure",
+      "Cloud Calling",
+      "DevOps",
     ]
 
 - title: "Manufacturing - Network Automation"
@@ -36,6 +38,7 @@
       "Automation",
       "REST API",
       "NetDevOps",
+      "Network Infrastructure",
     ]
 
 - title: "Oil & Gas - Collaboration Infrastructure Upgrade"
@@ -51,6 +54,7 @@
       "SIP",
       "SIP Trunking",
       "PSTN Integration",
+      "Collaboration Infrastructure",
     ]
 
 - title: "Oil & Gas - Oracle SBC"
@@ -137,6 +141,7 @@
       "Genesys Cloud CX",
       "Contact Center",
       "Call Routing",
+      "Cloud & Container Infrastructure",
     ]
 
 - title: "Cisco Unified Communications Manager Upgrades"

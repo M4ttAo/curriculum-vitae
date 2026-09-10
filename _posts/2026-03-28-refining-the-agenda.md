@@ -5,7 +5,6 @@ date: 2026-03-28
 permalink: /blog/calendar-optimization/
 description: "Using Power Automate to adapt corporate calendar events to a more useful personal view."
 cover: /assets/images/automations/calendar-optimization/cover.png
-icon: "📅"
 tags:
   - Power Automate
   - outlook

@@ -5,7 +5,6 @@ date: 2026-04-15
 permalink: /blog/zero-click-desk-reservation/
 description: "Automatically reserve an office desk with iOS Shortcuts, geofencing and Power Automate."
 cover: /assets/images/automations/zero-click-desk-reservation/cover.png
-icon: "🖥️"
 tags:
   - Power Automate
   - iPhone Shortcuts

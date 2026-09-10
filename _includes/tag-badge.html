@@ -4,7 +4,11 @@
     {%- assign color = category[1].color -%}
   {%- endif -%}
 {%- endfor -%}
+{%- assign tag_path = site.tag_urls[include.tag] -%}
+{%- unless tag_path -%}
+  {%- assign tag_path = include.tag | slugify | prepend: '/blog/tag/' | append: '/' -%}
+{%- endunless -%}
 <a class="tag tag--{{ color }}"
-   href="{{ include.tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">
+   href="{{ tag_path | relative_url }}">
   {{ include.tag }}
 </a>

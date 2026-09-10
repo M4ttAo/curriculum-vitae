@@ -5,7 +5,6 @@ date: 2026-03-28
 permalink: /blog/04-the-automation-engine/
 description: "How Make.com turns LatinHub's scheduled flyers into automated Instagram and Telegram posts."
 cover: /assets/images/automations/04-the-automation-engine/cover.png
-icon: "💻"
 tags:
   - Make.com
   - Instagram Automation

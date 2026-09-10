@@ -5,7 +5,6 @@ date: 2026-03-28
 permalink: /blog/05-whatsapp-automation/
 description: "Using iOS Shortcuts to automate LatinHub community messages and reminders on WhatsApp."
 cover: /assets/images/automations/05-whatsapp-automation/cover.png
-icon: "💬"
 tags:
   - WhatsApp Automation
   - iPhone Shortcuts
@@ -69,4 +68,4 @@ By leveraging iOS Shortcuts as a "Middleware," I ensured that the community stay
 
 [Next Post →](/blog/04-the-automation-engine/) 
 
-[← Preivous Post](/blog/06-canva-flyers/) 
+[← Preivous Post](/blog/06-canva-flyers/)

@@ -1,10 +1,26 @@
 ---
 layout: page
-title: "Blog"
+title: "Notes"
 permalink: /blog/
 ---
 
-<div class="post-timeline">
+<header class="blog-intro">
+  <p class="blog-kicker">PERSONAL ENGINEERING JOURNAL // POSTS ONLINE</p>
+  <p class="blog-lede">Posts from the systems I build, the workflows I automate and the manual tasks I keep refusing to do twice.</p>
+  <div class="blog-stats" aria-label="Blog statistics">
+    <span><strong>{{ site.posts.size }}</strong> posts</span>
+    <span><strong>{{ site.time | date: "%Y" }}</strong> current signal</span>
+    <span><strong>01</strong> operator</span>
+  </div>
+</header>
+
+<section class="blog-archive" aria-labelledby="recent-posts">
+  <div class="blog-section-heading">
+    <p class="blog-kicker">ARCHIVE // RECENT POSTS</p>
+    <span class="blog-section-line" aria-hidden="true"></span>
+  </div>
+
+  <div class="post-timeline" id="recent-posts">
 {% assign previous_year = "" %}
 {% for post in site.posts %}
   {% assign post_year = post.date | date: "%Y" %}
@@ -16,9 +32,7 @@ permalink: /blog/
   <article class="timeline-item">
     <div class="timeline-date">
       <time datetime="{{ post.date | date_to_xmlschema }}">
-        {{ post.date | date: "%b" }}
-        <strong>{{ post.date | date: "%-d" }}</strong>
-        <span>{{ post.date | date: "%Y" }}</span>
+        {{ post.date | date: "%b %-d, %Y" }}
       </time>
     </div>
 
@@ -33,10 +47,6 @@ permalink: /blog/
       {% endif %}
 
       <div class="timeline-card-body">
-        {% if post.icon %}
-          <span class="timeline-card-icon" aria-hidden="true">{{ post.icon }}</span>
-        {% endif %}
-
         <h2>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h2>
@@ -56,4 +66,5 @@ permalink: /blog/
     </div>
   </article>
 {% endfor %}
-</div>
+  </div>
+</section>

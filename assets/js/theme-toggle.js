@@ -62,11 +62,6 @@
   }
 
 
-  applyTheme(
-    currentTheme()
-  );
-
-
   document.addEventListener(
     "DOMContentLoaded",
     function () {

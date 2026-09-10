@@ -22,8 +22,21 @@ module Jekyll
 
       dir = (site.config['tag_dir'] || 'blog/tag').sub(%r{^/+}, '')
 
+      tag_urls = {}
+      used_slugs = {}
+
       tags.each do |tag|
-        slug = Jekyll::Utils.slugify(tag)
+        base_slug = Jekyll::Utils.slugify(tag)
+        slug = base_slug
+        suffix = 2
+
+        while used_slugs.key?(slug)
+          slug = "#{base_slug}-#{suffix}"
+          suffix += 1
+        end
+
+        used_slugs[slug] = true
+        tag_urls[tag] = "/#{dir}/#{slug}/"
 
         site.pages << TagPage.new(
           site,
@@ -32,6 +45,8 @@ module Jekyll
           tag
         )
       end
+
+      site.config['tag_urls'] = tag_urls
     end
   end
 

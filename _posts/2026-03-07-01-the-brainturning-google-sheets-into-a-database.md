@@ -5,7 +5,6 @@ date: 2026-03-07
 permalink: /blog/01-the-brainturning-google-sheets-into-a-database/
 description: "Turning Google Sheets into the database and command center behind LatinHub's automation ecosystem."
 cover: /assets/images/automations/01-the-brainturning-google-sheets-into-a-database/cover.png
-icon: "🧠"
 tags:
   - Google Sheets
   - Google Apps Script

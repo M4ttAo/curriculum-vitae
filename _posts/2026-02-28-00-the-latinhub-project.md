@@ -5,7 +5,6 @@ date: 2026-02-28
 permalink: /blog/00-the-latinhub-project/
 description: "How LatinHub became a fully autonomous, zero-cost infrastructure for Salsa and Bachata events across Italy."
 cover: /assets/images/automations/00-the-latinhub-project/cover.png
-icon: "💻"
 tags:
   - LatinHub
   - automation

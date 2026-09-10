@@ -1,0 +1,140 @@
+.home-hero {
+  max-width: 60rem;
+  margin-bottom: var(--space-3);
+  padding: var(--space-4) 0 var(--space-3);
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.home-kicker {
+  margin: 0 0 var(--space-2);
+  color: var(--section-heading);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.home-hero h1 {
+  margin-bottom: 0.25rem;
+  font-size: clamp(3rem, 8vw, 6rem);
+  line-height: 0.98;
+}
+
+.home-title {
+  margin-bottom: var(--space-2);
+  color: var(--section-heading);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.home-lede {
+  max-width: 42rem;
+  margin: 0 auto var(--space-3);
+  color: var(--text-muted);
+  font-size: clamp(1.2rem, 3vw, 1.7rem);
+  letter-spacing: -0.025em;
+  line-height: 1.35;
+}
+
+.home-section {
+  max-width: 68rem;
+  margin-bottom: var(--space-4);
+}
+
+.home-section-heading {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.home-section-heading h2 {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--section-heading);
+}
+
+.home-section-heading a {
+  flex: 0 0 auto;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.home-section-line {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.home-tags {
+  margin: 0;
+}
+
+.home-list {
+  border-top: 1px solid var(--border);
+}
+
+.home-list-item {
+  display: grid;
+  grid-template-columns: 10rem minmax(0, 1fr);
+  gap: var(--space-3);
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.home-list-item time,
+.home-list-index {
+  color: var(--text-faint);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+}
+
+.home-list-item h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.2rem;
+}
+
+.home-list-item h3 a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.home-list-item h3 a:hover {
+  color: var(--accent);
+}
+
+.home-list-item p {
+  max-width: 46rem;
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.home-about {
+  max-width: 46rem;
+}
+
+.home-about a {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  .home-hero {
+    padding: var(--space-3) 0;
+  }
+
+  .home-list-item {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+}

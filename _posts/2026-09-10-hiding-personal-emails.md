@@ -5,7 +5,6 @@ date: 2026-09-10
 permalink: /blog/hide-personal-emails/
 description: "How I use Cloudflare Email Routing and a custom domain to protect my personal inbox."
 cover: /assets/images/automations/hide-personal-emails/cover.png
-icon: "📧"
 tags:
   - Cloudflare
   - Gmail

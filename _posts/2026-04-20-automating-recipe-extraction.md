@@ -5,7 +5,6 @@ date: 2026-04-20
 permalink: /blog/automating-recipe-extraction/
 description: "Turning recipes from social media into structured Notion pages with an iOS Shortcut, OpenAI and the Notion API."
 cover: /assets/images/automations/automating-recipe-extraction/cover.png
-icon: "🍳"
 tags:
   - Instagram Automation
   - bot

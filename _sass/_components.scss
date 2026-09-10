@@ -152,17 +152,29 @@ html:not([data-theme="dark"]) .theme-toggle-moon {
 .post-cover {
   display: block;
   width: 100%;
-  max-height: 30rem;
+  max-height: 34rem;
   margin: 0 0 var(--space-3);
   object-fit: cover;
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
 }
 
-.post-icon {
-  margin: 0 0 var(--space-1);
-  font-size: 2rem;
-  line-height: 1;
+.post-header {
+  max-width: var(--blog-reading-measure);
+  margin-bottom: var(--space-3);
+}
+
+.post-kicker {
+  margin: 0 0 var(--space-2);
+  color: var(--section-heading);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.post-header h1 {
+  max-width: 48rem;
+  font-size: clamp(2.2rem, 5vw, 4.25rem);
+  line-height: 1.05;
 }
 
 .post-meta {
@@ -188,13 +200,15 @@ html:not([data-theme="dark"]) .theme-toggle-moon {
   width: 100%;
   height: auto;
   margin: var(--space-3) 0;
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
   background: var(--bg-soft);
 }
 
 @media (max-width: 480px) {
   .post-cover {
     max-height: 14rem;
+  }
+
+  .post-header h1 {
+    font-size: 2.25rem;
   }
 }

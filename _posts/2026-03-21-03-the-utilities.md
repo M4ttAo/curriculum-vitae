@@ -5,7 +5,6 @@ date: 2026-03-21
 permalink: /blog/03-the-utilities/
 description: "The AWS S3, Telegram and Google Sheets utilities supporting LatinHub's automation engine."
 cover: /assets/images/automations/03-the-utilities/cover.png
-icon: "⚒️"
 tags:
   - AWS S3
   - Telegram Bot
@@ -112,4 +111,4 @@ A simple but vital “database”. For every club (using the **Short Name**), th
 
 [Next Post →](/blog/04-the-automation-engine/) 
 
-[← Preivous Post](/blog/02-the-warehouse/) 
+[← Preivous Post](/blog/02-the-warehouse/)

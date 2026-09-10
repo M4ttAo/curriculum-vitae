@@ -11,9 +11,14 @@ layout: default
 
   <header class="post-header">
 
-    {% if page.icon %}
-      <p class="post-icon" aria-hidden="true">{{ page.icon }}</p>
-    {% endif %}
+    <p class="post-kicker">
+      FIELD NOTE //
+      {% if page.tags %}
+        {{ page.tags | first | upcase }}
+      {% else %}
+        BLOG
+      {% endif %}
+    </p>
 
     <h1 class="p-name">{{ page.title }}</h1>
 
