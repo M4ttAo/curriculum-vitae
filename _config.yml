@@ -4,8 +4,6 @@ url: "https://blog.mattao.net"
 
 lang: "en"
 
-default_accent: "blue"
-
 markdown: kramdown
 
 kramdown:

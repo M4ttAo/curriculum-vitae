@@ -42,84 +42,84 @@
 
   /* Tag palette */
 
-  --blue-100: #d7ebe6;
-  --blue-200: #b8dcd5;
-  --blue-700: #00665e;
-  --blue-900: #0d4b45;
+  --blue-100: #b9ffe1;
+  --blue-200: #8affd1;
+  --blue-700: #171717;
+  --blue-900: #0d2a22;
 
 
   /* Cyan */
 
-  --cyan-100: #d9e9ea;
-  --cyan-200: #b8d6d8;
-  --cyan-700: #176b70;
-  --cyan-900: #12464a;
+  --cyan-100: #b8fff7;
+  --cyan-200: #8de9e0;
+  --cyan-700: #123a3a;
+  --cyan-900: #0b2929;
 
 
   /* Purple */
 
-  --purple-100: #e7e0e8;
-  --purple-200: #d3c5d5;
-  --purple-700: #6b4c70;
-  --purple-900: #4a3450;
+  --purple-100: #e5d7ff;
+  --purple-200: #c9a8ff;
+  --purple-700: #30243d;
+  --purple-900: #21182c;
 
 
   /* Green */
 
-  --green-100: #dceadf;
-  --green-200: #c2d9c5;
-  --green-700: #3f6d49;
-  --green-900: #285238;
+  --green-100: #c8ffd5;
+  --green-200: #a8f5bd;
+  --green-700: #193b2b;
+  --green-900: #10291e;
 
 
   /* Orange */
 
-  --orange-100: #f1e2d1;
-  --orange-200: #e5c9ad;
-  --orange-700: #9a5a2c;
-  --orange-900: #56351f;
+  --orange-100: #ffe4b8;
+  --orange-200: #ffd08a;
+  --orange-700: #3d2b1b;
+  --orange-900: #2b1e13;
 
 
   /* Slate */
 
-  --slate-200: #e0e7e3;
-  --slate-700: #48605b;
-  --slate-800: #263e3a;
+  --slate-200: #dedede;
+  --slate-700: #303030;
+  --slate-800: #222222;
 
 
   /* Light */
 
-  --bg: #f0ede4;
-  --bg-soft: #e8e4d9;
-  --border: #c8d3cc;
+  --bg: #f4f5f1;
+  --bg-soft: #ffffff;
+  --border: #c5ded3;
 
-  --text: #153936;
-  --text-muted: #5b706c;
-  --text-faint: #83928e;
-  --section-heading: #004741;
+  --text: #171717;
+  --text-muted: #53635b;
+  --text-faint: #5f8f7c;
+  --section-heading: #171717;
 
-  --accent: #004741;
-  --accent-hover: #00665e;
+  --accent: #087a52;
+  --accent-hover: #045436;
 
-  --tag-bg: #e0e7e3;
-  --tag-text: #385650;
+  --tag-bg: #d9fff0;
+  --tag-text: #075c40;
 }
 
 
 [data-theme="dark"] {
 
-  --bg: #071f1c;
-  --bg-soft: #0d2f2b;
-  --border: #28504a;
+  --bg: #171717;
+  --bg-soft: #222222;
+  --border: #3c3c3c;
 
-  --text: #e8eee9;
-  --text-muted: #a8bcb7;
-  --text-faint: #78938c;
-  --section-heading: #f0ede4;
+  --text: #f0f0f0;
+  --text-muted: #bdbdbd;
+  --text-faint: #777777;
+  --section-heading: #21f1a8;
 
-  --accent: #77c9be;
-  --accent-hover: #a7ded6;
+  --accent: #21f1a8;
+  --accent-hover: #8affd1;
 
-  --tag-bg: #163d38;
-  --tag-text: #d1e3dd;
+  --tag-bg: #18352c;
+  --tag-text: #8affd1;
 }

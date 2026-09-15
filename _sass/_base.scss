@@ -6,7 +6,12 @@
 
 
 html {
-  color-scheme: light dark;
+  color-scheme: light;
+}
+
+
+html[data-theme="dark"] {
+  color-scheme: dark;
 }
 
 
@@ -49,6 +54,17 @@ body {
 .home-context .wrap,
 .about-context .wrap {
   max-width: var(--blog-measure);
+}
+
+
+.cv-context .wrap {
+  max-width: var(--blog-measure);
+}
+
+
+.cv-context main {
+  max-width: var(--measure);
+  margin: 0 auto;
 }
 
 
