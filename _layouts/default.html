@@ -7,7 +7,7 @@
 
 {% include head.html %}
 
-<body>
+<body class="{% if page.url == '/' %}home-context{% elsif page.url contains '/about' %}about-context{% elsif page.url contains '/blog' %}blog-context{% endif %}">
 
   <div class="wrap">
 

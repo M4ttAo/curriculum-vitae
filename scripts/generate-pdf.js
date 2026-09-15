@@ -63,7 +63,7 @@ function today() {
 
 (async () => {
   const sitePath = path.resolve(__dirname, "..", "_site");
-  const cvHtmlPath = path.join(sitePath, "cv", "index.html");
+  const cvHtmlPath = path.join(sitePath, "cv", "print", "index.html");
   const outputDir = path.join(sitePath, "assets");
 
   const datedOutputPath = path.join(
@@ -109,7 +109,7 @@ function today() {
     const page = await browser.newPage();
 
     await page.goto(
-      `http://127.0.0.1:${port}/cv/`,
+      `http://127.0.0.1:${port}/cv/print/`,
       {
         waitUntil: "networkidle0"
       }

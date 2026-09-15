@@ -4,5 +4,6 @@ _site/
 Gemfile.lock
 .DS_Store
 node_modules/
+vendor/bundle/
 /assets/cv.pdf
 /assets/*-MatteoCavalli-CV.pdf

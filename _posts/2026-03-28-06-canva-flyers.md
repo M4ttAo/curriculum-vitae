@@ -5,7 +5,6 @@ date: 2026-03-28
 permalink: /blog/06-canva-flyers/
 description: "Generating and sorting thousands of consistent LatinHub flyer covers with Google Sheets, Canva and Python."
 cover: /assets/images/automations/06-canva-flyers/cover.png
-icon: "🖼️"
 tags:
   - Canva
   - Google Sheets

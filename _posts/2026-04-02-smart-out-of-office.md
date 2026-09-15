@@ -5,7 +5,6 @@ date: 2026-04-02
 permalink: /blog/smart-out-of-office/
 description: "Automatically schedule your Office 365 Out-of-Office reply from calendar events with Power Automate."
 cover: /assets/images/automations/smart-out-of-office/cover.png
-icon: "🕛"
 tags:
   - Power Automate
   - outlook

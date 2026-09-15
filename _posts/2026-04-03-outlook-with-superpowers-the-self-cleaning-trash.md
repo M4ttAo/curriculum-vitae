@@ -5,7 +5,6 @@ date: 2026-04-03
 permalink: /blog/outlook-with-superpowers-the-self-cleaning-trash/
 description: "Use Power Automate and Microsoft Graph to automatically clean up Outlook's deleted items."
 cover: /assets/images/automations/outlook-with-superpowers-the-self-cleaning-trash/cover.png
-icon: "🗑️"
 tags:
   - Power Automate
   - outlook

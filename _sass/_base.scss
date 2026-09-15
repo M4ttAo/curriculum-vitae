@@ -41,6 +41,17 @@ body {
 }
 
 
+.blog-context .wrap {
+  max-width: var(--blog-measure);
+}
+
+
+.home-context .wrap,
+.about-context .wrap {
+  max-width: var(--blog-measure);
+}
+
+
 a {
 
   color: var(--accent);

@@ -5,7 +5,6 @@ date: 2026-03-14
 permalink: /blog/02-the-warehouse/
 description: "Designing an automated Google Drive warehouse for LatinHub flyers."
 cover: /assets/images/automations/02-the-warehouse/cover.png
-icon: "🏬"
 tags:
   - Google Drive
   - AWS Lambda
