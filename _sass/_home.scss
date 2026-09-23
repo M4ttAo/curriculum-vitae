@@ -8,7 +8,7 @@
 
 .home-kicker {
   margin: 0 0 var(--space-2);
-  color: var(--section-heading);
+  color: var(--accent);
   font-family: var(--font-mono);
   font-size: 0.72rem;
   letter-spacing: 0.12em;
@@ -17,13 +17,15 @@
 
 .home-hero h1 {
   margin-bottom: 0.25rem;
+  font-family: "Audiowide", var(--font-heading);
+  font-weight: 400;
   font-size: clamp(3rem, 8vw, 6rem);
   line-height: 0.98;
 }
 
 .home-title {
   margin-bottom: var(--space-2);
-  color: var(--section-heading);
+  color: var(--accent);
   font-size: 1.15rem;
   font-weight: 600;
 }

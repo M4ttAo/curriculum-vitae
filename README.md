@@ -74,6 +74,8 @@ npx wrangler deploy --assets ./_site
 
 ## Local development
 
+The project requires Ruby `3.4.10`. If you use a Ruby version manager, the repository `.ruby-version` selects it automatically.
+
 Install dependencies:
 
 ```bash

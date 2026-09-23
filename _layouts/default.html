@@ -2,12 +2,11 @@
 
 <html
   lang="{{ site.lang }}"
-  data-accent="{{ site.default_accent | default: 'blue' }}"
 >
 
 {% include head.html %}
 
-<body class="{% if page.url == '/' %}home-context{% elsif page.url contains '/about' %}about-context{% elsif page.url contains '/blog' %}blog-context{% endif %}">
+<body class="{% if page.url == '/' %}home-context{% elsif page.url == '/cv/' %}cv-context{% elsif page.url contains '/about' %}about-context{% elsif page.url contains '/blog' %}blog-context{% endif %}">
 
   <div class="wrap">
 
