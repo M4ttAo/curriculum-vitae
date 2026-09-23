@@ -7,9 +7,9 @@ description: "Use Power Automate and Microsoft Graph to automatically clean up O
 cover: /assets/images/automations/outlook-with-superpowers-the-self-cleaning-trash/cover.png
 tags:
   - Power Automate
-  - outlook
-  - microsoft
-  - automation
+  - Outlook
+  - Microsoft
+  - Automation
 ---
 
 ## The Limit **for a clutter-free life**

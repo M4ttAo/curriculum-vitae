@@ -8,8 +8,8 @@ cover: /assets/images/automations/01-the-brainturning-google-sheets-into-a-datab
 tags:
   - Google Sheets
   - Google Apps Script
-  - database
-  - automation
+  - Database
+  - Automation
 ---
 
 ## The “Excel is not a Database” Dilemma

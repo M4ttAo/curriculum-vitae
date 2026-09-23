@@ -39,6 +39,8 @@ So I created a small homepage at [link.mattao.net](https://link.mattao.net). It 
 
 It is basically a personal bookmark page, but without tying it to a browser or a specific device.
 
+> **Tip:** I use this page so often that I gave it one extra F1 corner: a small card at the top, showing the date and start time of the next race. The data comes straight from the [OpenF1 API](https://openf1.org/).
+
 ## The source of truth is a YAML file
 
 The page is hosted on a GitHub repository connected to Cloudflare Pages. The links are stored in a YAML file, so adding a new one is just a matter of adding a few lines:

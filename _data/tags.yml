@@ -37,7 +37,6 @@ Automation / Dev / AI:
   items:
     - Python
     - Automation
-    - automation
     - Power Automate
     - REST API
     - Git
@@ -62,8 +61,8 @@ Automation / Dev / AI:
     - iPhone Shortcuts
     - Instagram Automation
     - WhatsApp Automation
-    - bot
-    - database
+    - Bot
+    - Database
     - Notion
     - Apple Intelligence
     - Python Development
@@ -85,9 +84,9 @@ Containers / Cloud:
 Productivity / Microsoft:
   color: blue
   items:
-    - outlook
-    - calendar
-    - microsoft
+    - Outlook
+    - Calendar
+    - Microsoft
     - SharePoint
     - Google Sheets
     - Gmail

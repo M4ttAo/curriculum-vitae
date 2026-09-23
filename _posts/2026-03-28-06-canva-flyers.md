@@ -9,7 +9,7 @@ tags:
   - Canva
   - Google Sheets
   - Python
-  - automation
+  - Automation
 ---
 
 ## Content Design

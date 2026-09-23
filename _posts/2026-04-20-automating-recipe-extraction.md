@@ -7,7 +7,7 @@ description: "Turning recipes from social media into structured Notion pages wit
 cover: /assets/images/automations/automating-recipe-extraction/cover.png
 tags:
   - Instagram Automation
-  - bot
+  - Bot
   - iPhone Shortcuts
   - Notion
   - Apple Intelligence

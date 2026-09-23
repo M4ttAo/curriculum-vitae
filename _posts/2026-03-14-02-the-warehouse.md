@@ -9,7 +9,7 @@ tags:
   - Google Drive
   - AWS Lambda
   - Python
-  - automation
+  - Automation
 ---
 
 ## The Architecture of Chaos

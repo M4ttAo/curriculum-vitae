@@ -9,7 +9,7 @@ tags:
   - WhatsApp Automation
   - iPhone Shortcuts
   - Google Sheets
-  - automation
+  - Automation
 ---
 
 ## The Whatsapp Challenge

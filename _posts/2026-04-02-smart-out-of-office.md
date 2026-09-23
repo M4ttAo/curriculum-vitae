@@ -7,9 +7,9 @@ description: "Automatically schedule your Office 365 Out-of-Office reply from ca
 cover: /assets/images/automations/smart-out-of-office/cover.png
 tags:
   - Power Automate
-  - outlook
-  - calendar
-  - microsoft
+  - Outlook
+  - Calendar
+  - Microsoft
 ---
 
 ## The Hook

@@ -7,7 +7,7 @@ description: "How LatinHub became a fully autonomous, zero-cost infrastructure f
 cover: /assets/images/automations/00-the-latinhub-project/cover.png
 tags:
   - LatinHub
-  - automation
+  - Automation
   - Google Sheets
   - Google Drive
   - Make.com

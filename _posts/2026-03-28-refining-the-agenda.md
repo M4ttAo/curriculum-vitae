@@ -7,9 +7,9 @@ description: "Using Power Automate to adapt corporate calendar events to a more 
 cover: /assets/images/automations/calendar-optimization/cover.png
 tags:
   - Power Automate
-  - outlook
-  - calendar
-  - microsoft
+  - Outlook
+  - Calendar
+  - Microsoft
 ---
 
 ## The "Corporate" Constraint

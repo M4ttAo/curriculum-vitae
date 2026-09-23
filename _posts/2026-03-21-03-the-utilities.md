@@ -9,7 +9,7 @@ tags:
   - AWS S3
   - Telegram Bot
   - Make.com
-  - automation
+  - Automation
 ---
 
 ## AWS S3

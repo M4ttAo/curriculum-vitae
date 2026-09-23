@@ -9,7 +9,7 @@ tags:
   - Power Automate
   - iPhone Shortcuts
   - SharePoint
-  - automation
+  - Automation
 ---
 
 ## Never Forget Your Desk Again

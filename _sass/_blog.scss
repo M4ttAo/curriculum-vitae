@@ -1,3 +1,9 @@
+.post {
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
 .blog-intro {
   max-width: 60rem;
   margin: 0 0 var(--space-4);
@@ -76,8 +82,15 @@
 
 .post-reading-layout .e-content {
   min-width: 0;
+  width: 100%;
   grid-column: 1;
   grid-row: 1;
+  overflow-wrap: anywhere;
+}
+
+.post .e-content pre {
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 .post-toc {
