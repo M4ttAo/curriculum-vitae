@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I Put My Domain on Telegram"
+title: "My Personal Cloudflare Control Panel"
 date: 2026-10-05
 permalink: /blog/domain-bot/
 description: "How I use a private Telegram bot to manage Cloudflare redirects and email blocks on the go."
