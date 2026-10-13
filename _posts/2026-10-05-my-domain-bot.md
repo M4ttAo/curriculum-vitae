@@ -87,4 +87,4 @@ But it removed a surprising amount of friction. I can add a link, remove a block
 
 Sometimes automation is not about building something huge. Sometimes it is just about putting the right button in the place where you already are.
 
-Need help setting up your own Telegram bot? Or do you simply want to talk about this topic? Send me an email at [mydomainbotpost@mattao.net](mailto:mydomainbotpost@mattao.net) ;)
+Need help setting up your own Telegram bot? Or do you simply want to talk about this topic? Send me an email at [mydomainbotpost@mattao.net](mailto:mydomainbotpost@mattao.net) 😉
